@@ -43,7 +43,7 @@ model_equation <- function(model, ...) {
 }
 
 # load data ####
-load("C_Posthoc_Analysis_of_Densities/density_results.Rdata")
+load("C_PostProcessing_of_Densities/density_results.Rdata")
 
 
 # load("Occupancy_results.Rdata")
@@ -137,7 +137,7 @@ ggpubr::ggarrange(p_income,p_pop,
 
 
 
-ggsave("C_Posthoc_Analysis_of_Densities/Density_response.png", width = 8, height = 5)
+ggsave("C_PostProcessing_of_Densities/Density_response.png", width = 8, height = 5)
 
 
 1-(best_model$deviance/best_model$null.deviance) # 0.43 was 0.47 for occupancy >0.5
