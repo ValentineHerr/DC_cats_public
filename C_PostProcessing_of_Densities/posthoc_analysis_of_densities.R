@@ -45,9 +45,6 @@ model_equation <- function(model, ...) {
 # load data ####
 load("C_PostProcessing_of_Densities/density_results.Rdata")
 
-
-# load("Occupancy_results.Rdata")
-
 # run model ####
 
 fm <- glm(round(Y*10)~pop_density_km2_scaled + I(pop_density_km2_scaled^2) + Median_Federal_Adjusted_Gross_Income_2015_scaled, data = data, family = "poisson", na.action = "na.fail")
