@@ -1,4 +1,4 @@
-### Analyse identified cats with random thining SCR###
+### Analyse identified cats with random thinning SCR###
 # clear environment ####
 rm(list = ls())
 
