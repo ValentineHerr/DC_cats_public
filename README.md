@@ -14,7 +14,7 @@ Note that the latitudes and longitudes of the data has either been removed or al
 Additional project files are in a private companion repository.
 
 ## Contacts
-For request regarding the Randon Thinning Spacial Capture Recapture, please contact Ben Augustine [@benaug](https://github.com/benaug)
+For request regarding the SCR Random thinning model with individual covariates, please contact Ben Augustine [@benaug](https://github.com/benaug)
 
 For request regarding the general scope of this project, please contact Michael Cove [@mvcove](https://github.com/mvcove)
 
