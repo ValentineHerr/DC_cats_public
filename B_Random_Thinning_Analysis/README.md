@@ -10,3 +10,4 @@ The files containing the MCMC results and trace of these blocks (too large) are 
 # RandomThinning_Scripts
 
 The files in RandomThinning_Scripts are adapted from Ben Augustine's code found [here](https://github.com/benaug/RandomThinIDCov).
+The functions to save and restart the MCMC states came from here: http://danielturek.github.io/public/restartingMCMC/restartingMCMC.html
